@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(210, 46%, 95%)!important;
+    font-family: 'Manrope', sans-serif!important;
+
+}
+
+.d-flex {
+    margin-top: 250px;
+    height: 275px;
+    width: 700px;
+    
+}
+.col-5 {
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+.monbutton {
+    border-radius: 50%!important;
+    background-color: hsl(210, 46%, 95%)!important;
+    
+}
+.monbutton:hover {
+    background-color: hsl(217, 19%, 35%)!important;
+}
+.text {
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    height: 275px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    color: hsl(217, 19%, 35%);
+}
+p{
+    font-size: 12px;
+    color: hsl(212, 23%, 69%);
+    
+}
+.profile{
+    padding-top: 10px;
+    display: flex;
+}
+.avatar{
+    border-radius: 50%;
+    height: 37px;
+
+}
+
+h6{
+    font-size: 13px!important;
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 0px!important;
+    padding-left: 10px;
+    font-weight: bold;
+
+
+}
+
+.date{
+    font-size: 13px;
+    padding-left: 10px;
+    color: hsl(212, 23%, 69%);
+
+}
+
+
+
+.share-img:hover {
+    filter: brightness(0) invert(1);
+}
+
+
+.tooltip-inner {
+    width: 400px!important;
+    height: 50px;
+    background-color: hsl(217, 19%, 35%)!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px!important ;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: hsl(212, 23%, 69%)!important;
+    
+}
+
+.tooltip-arrow:before {
+    border-top-color: hsl(217, 19%, 35%)!important;
+    
+}
+.space{
+    display: flex;
+}
+
+.info {
+    padding-right: 0px;
+    width: 260px;
+}
+
+.monbutton {
+    height: 30px;
+    width: 30px;
+    padding-top: 0px!important;
+    padding-left: 7px!important;
+}
+
+.monbutton:hover {
+color:hsl(212, 23%, 69%)!important ;
+}
